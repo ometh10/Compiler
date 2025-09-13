@@ -1,0 +1,16 @@
+# Ignore build directories
+build/
+cmake-build-*/
+
+# Ignore binary and object files
+*.exe
+*.o
+output
+output.*
+
+# Ignore CMake-generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
